@@ -6,4 +6,4 @@ const app = express();
 app.use(express.json());
 app.use("/users", routes);
 
-app.listen(3100);
+export default app;

@@ -25,5 +25,5 @@ export interface IUserUpdate {
   email?: string;
   password?: string;
   age?: number;
-  updated_at: Date;
+  updated_at?: Date;
 }
